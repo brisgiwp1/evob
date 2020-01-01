@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f8"
+    tools:context=".PesanEvent">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="PESAN"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:text="Nama Event"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView10"
+        android:text="Tempat"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView13"
+        android:text="Waktu"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtev"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView12"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txttmp"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtev"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="2dp"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/txtwkt"
+        android:layout_width="211dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txttmp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="0dp"
+        android:text="TextView"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/pmpesan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtwkt"
+        android:layout_marginTop="0dp"
+        android:text="PESAN" />
+
+    <TextView
+        android:id="@+id/iddaftarrrr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/iddeventtt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iddaftarrrr"
+        android:text="TextView" />
+
+
+</RelativeLayout>

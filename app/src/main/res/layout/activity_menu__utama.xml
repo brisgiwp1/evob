@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/f8"
+    tools:context=".Menu_Utama">
+
+    <Button
+        android:id="@+id/b_profil"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:text="PROFIL" />
+
+    <Button
+        android:id="@+id/b_event"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="EVENT SAYA" />
+
+    <Button
+        android:id="@+id/b_app"
+        android:layout_width="121dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Pilih event" />
+</RelativeLayout>
